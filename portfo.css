@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #e63030;
+  padding: 20px;
+  text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .column1 {
+    float: left;
+    width: 50%;
+    padding: 15px;
+  }
+  
+  .column2 {
+    float: right;
+    width: 50%;
+    padding: 15px;
+  }
+
+  /* Style the footer */
+  .social-icons .fab{ 
+    font-size: 50px;
+    float: left;
+    width: 25%;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .social-icons .fab.fa-facebook {
+    color: blue;
+  }
+  .social-icons .fab.fa-instagram {
+    color:rgb(235, 48, 15); 
+  }
+  .social-icons .fab.fa-twitter {
+    color:rgb(128, 128, 240); 
+  }
+  .social-icons .fab.fa-linkedin {
+    color: rgb(30, 30, 165);
+  }
